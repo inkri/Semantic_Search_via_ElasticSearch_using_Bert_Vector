@@ -1,0 +1,21 @@
+
+Link:https://www.youtube.com/watch?v=KSwPR9eig7w
+
+Env Creation:
+python -m venv venv
+
+Activate Env:
+venv\Scripts\activate
+
+Packages:
+(venv) PS C:\Users\Abhishek_Jaiswal\Documents\TR_Project\AI_Projects\ElasticSearch> 
+pip install elasticsearch
+pip install sentence-transformers
+pip install streamlit
+
+Embedding Models:
+https://sbert.net/docs/sentence_transformer/pretrained_models.html#original-models
+
+
+Run script:
+(venv) PS C:\Users\Abhishek_Jaiswal\Documents\TR_Project\AI_Projects\ElasticSearch> streamlit run searchApp.py
